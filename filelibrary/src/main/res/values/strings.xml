@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">FileLibrary</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="label_slc_upper_folder_agency">..</string>
+    <string name="label_slc_upper_folder">上层文件夹</string>
+    <string name="toast_slc_grant_write_external_storage_Permissions">没有授予读写存储器权限，无法获取到文件</string>
+</resources>

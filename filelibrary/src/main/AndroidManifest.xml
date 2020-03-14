@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.slc.filelibrary">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity
+            android:name=".ui.activity.SlcFilePickerActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|density|fontScale"
+            android:theme="@style/SlcFileAppTheme" />
+        <activity
+            android:name=".ui.activity.SlcSimpleFileActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|density|fontScale"
+            android:theme="@style/SlcFileAppTheme" />
+    </application>
+
+</manifest>
